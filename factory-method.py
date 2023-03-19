@@ -1,4 +1,11 @@
+'''
+ Factory Method: A factory method is a creational pattern that provides an interface for creating objects in a superclass,
+ 
+ but allows subclasses to alter the type of objects that will be created.
+ 
+ For example, consider a Vehicle factory that creates different types of vehicles such as cars, bikes, and trucks.
 
+'''
 
 
 class Vehicle:
