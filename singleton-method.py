@@ -35,3 +35,11 @@ print(s1 == s2)
 
 # Output:
 # True
+
+"""
+
+The time complexity is O(1) because the get_instance() method always returns the same instance of the Singleton class. 
+The initialization of the Singleton instance only happens once, and subsequent calls to get_instance()
+will return the same instance without any 
+additional operations.
+"""
